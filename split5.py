@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 import os
 
-for i in range(20,80):
+# of videos in your folder
+for i in range(0,100):
 
     # Playing video from file:
     cap = cv2.VideoCapture('video%d.mp4' % i)
